@@ -6,6 +6,7 @@ for (let i = 0; i < arr.length; i++) {
   const element = arr[i];
   console.log(element);
   console.log(123);
+  console.log(123);
 }
 console.log(myName);
 console.log(myName1);
