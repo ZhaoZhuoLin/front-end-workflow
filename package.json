@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:eslint": "eslint --cache --max-warnings 0 . --ext .vue,.js,.ts,.jsx,.tsx --fix"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,10 @@
     "eslint": "^8.56.0",
     "eslint-plugin-vue": "^9.21.1",
     "husky": "^9.0.11"
+  },
+  "dependencies": {
+    "lint-staged": "^15.2.2",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
   }
 }

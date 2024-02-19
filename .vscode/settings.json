@@ -1,7 +1,28 @@
 {
+ 	"stylelint.enable": true,
+	"editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.requireConfig": true,
+    "eslint.enable": true, // eslint开启
+     "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "eslint.autoFixOnSave": "explicit"
+    },
     "editor.quickSuggestions": {
         "other": "on",
         "comments": true,
         "strings": "off"
-    }
+    },
+    "source.fixAll.stylelint": true,
+    "stylelint.validate": [
+		"css",
+		"less",
+		"postcss",
+		"scss",
+		"vue",
+		"sass",
+		"html"
+	],
+    "files.eol": "\n",
+    "files.autoSave": "off"
 }
